@@ -55,8 +55,8 @@ module Processor();
     );
 
     Control control_unit(
-        .instruction(opcode),
-        .ALUsrc(ALUsrc),
+        .(opcode),
+        .ALUsrc(ALUinstructionsrc),
         .MemtoReg(MemtoReg),
         .RegWrite(RegWrite),
         .MemRead(MemRead),

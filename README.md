@@ -2,6 +2,8 @@
 
 This repository contains the source code for a toy RISC-V processor. The processor is implemented in SystemVerilog and is designed to be a simple, educational tool for learning about the RISC-V instruction set architecture.
 
+![Processor](processor.png)
+
 ## Directory Structure
 
 The main components of the processor are organized as follows:

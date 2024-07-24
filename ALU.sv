@@ -2,7 +2,7 @@ module ALU #(parameter BITS = 64)(clk, x, y, src, out, zr);
 
   	input clk;
     input  [BITS-1:0] x, y;
-	input [3:0] src;
+	  input [3:0] src;
     output reg [BITS-1:0] out;
     output zr;
   
